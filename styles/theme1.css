@@ -8,17 +8,20 @@ h1{
     font-size: 50px;
 }
 
-h2 {
+h2{
     font-size: 40px;
     font-variant: small-caps;
     letter-spacing: 5px;
 }
 
 /*Navigation Bar*/
+header {
+    background-color: #dbc9f1;
+}
 nav a {
     font-size: 30px;
     color: black;
-    background-color: white;
+    background-color: #dbc9f1;
     border-radius: 3px;
     padding: 4px;
     margin: 2px;
@@ -26,33 +29,60 @@ nav a {
 }
 
 nav {
-    background-color: #dbc9f1;
     display: flex;
     flex-direction: row;
-    height: 50px;
-    position: fixed;
+    height: 60px;
     top: 0;
     width: 100%;
+    background-color: #dbc9f1;
 }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+}
+
 .rightnav a:hover {
-    color: #bd8ff2;
+    background-color: #bce3d6;
     box-shadow: -3px 2px 2px;
 }
 
 .rightnav {
     display: flex;
     flex-direction: row;
-    position: absolute;
     right: 0;
+    position: absolute;
     margin-right: 10px;
 }
 
-.navname {
+.navname a {
+    color: black;
     background-color: #dbc9f1;
 }
 
 .active a {
-    color: #bd8ff2;
+    color: black;
+    background-color: #44e3c6;
+    box-shadow: -3px 2px 2px;
+}
+
+footer {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p{
+    width: 100%;
+    background-color: #eee7f7;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+
 }
 
 /* Index Page*/
@@ -79,6 +109,23 @@ nav {
     border-radius: 10px;
 }
 
+.single {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single a:hover{
+    text-decoration: underline;
+}
+
+.single p {
+    font-size: 20px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: inline;
+}
 /* Projects Page*/
 .row1 {
     display: flex;
@@ -93,7 +140,7 @@ nav {
 .project h3 {
     font-size: 40px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 600;
     margin-top: 0px;
 }
@@ -141,7 +188,7 @@ nav {
 
 .captions a {
     font-size: 25px;
-    color: #bd8ff2;
+    color: #8049bf;
     text-decoration: none;
 }
 
@@ -159,12 +206,12 @@ nav {
     font-size: 20px;
     letter-spacing: 2px;
     margin: 20px;
-    color: #bd8ff2;
+    color: #8049bf;
 }
 
 .links a {
     text-decoration: none;
-    color: #bd8ff2;
+    color: #8049bf;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -178,19 +225,6 @@ nav {
     width: 120px;
 }
 
-.single {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.single a:hover{
-    text-decoration: underline;
-}
-
-.single p {
-    font-size: 10px;
-}
-
 .resumeimg {
     margin-top: 50px;
     margin-left: auto;
@@ -202,6 +236,10 @@ nav {
 .resume {
     display: flex;
     flex-direction: row;
+}
+
+.resumehead h3{
+    font-size: 25px;
 }
 
 /** Affiliations Page **/
@@ -233,7 +271,7 @@ nav {
 }
 
 .club a {
-    color: #bd8ff2;
+    color: #8049bf;
     text-decoration: none;
     margin-top: 2px;
 }
