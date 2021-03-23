@@ -1,0 +1,127 @@
+html {
+}
+
+ul {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/* navigation */
+nav {
+background-color: #6f93c2;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 40px;
+    font-variant: small-caps;
+    background-color: #6f93c2;
+    color: white;
+}
+
+.active a {
+    box-shadow: -2px 1px 2px;
+    background-color: #275899;
+    color: white;
+}
+
+
+/* homepage */
+.header h1 {
+    font-size: 20px;
+}
+
+.about h2 {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #6f93c2;
+    padding: 5px;
+    color: white;
+
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* Projects Page */
+.project p {
+    font-size: 30px;
+    font-family: monospace;
+    /* background-color: #3169b4;
+    color: white; */
+    text-align: center;
+    font-style: italic;
+}
+
+.snoots {
+    /* background-color: #3169b4; */
+    text-align: center;
+}
+
+.snoots a {
+    font-size: 30px;
+    font-family: monospace;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+}
+
+.captions p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.classproj h3 {
+    font-size: 30px;
+    font-family: monospace;
+    /* background-color: #6f93c2;
+    color: white; */
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+
+}
+
+.separator {
+    border-radius: 1px;
+    border-style: groove;
+    border-color: #275899;
+    margin: 10px;
+}
+
+.classproj a {
+    text-decoration: none;
+    color: #275899;
+}
+
+.designport p {
+    font-size: 25px;
+}
+
+/* Links */
+
+.links h2{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.links a{
+    text-decoration: none;
+    color: #275899
+}
+
+cite {
+    font-size: 15px;
+}
