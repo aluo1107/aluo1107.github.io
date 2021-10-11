@@ -28,7 +28,7 @@ h3 {
     border-radius: 10px; */
 }
 
-.backtotop svg:hover {
+.backtotop:hover {
     filter: invert(54%) sepia(13%) saturate(3241%) hue-rotate(221deg) brightness(87%) contrast(96%);
 }
 
@@ -37,12 +37,14 @@ h3 {
     justify-content: flex-end;
     margin-bottom: 20px;
     margin-right: 20px;
-    /* position: fixed; */
+    position: fixed;
+ 	bottom: 100px;
+ 	right: 40px;
 }
 /*Navigation Bar*/
 
 nav a {
-    font-size: 29px;
+    font-size: 20px;
     color: black;
     /* background-color: #dbc9f1;
     border-radius: 3px; */
@@ -92,20 +94,11 @@ nav a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
-  /* padding: 5px; */
+  background-color: rgba(255, 255, 255, 0.75);
 }
-
-/* .dropdown-content a {
-    margin-top: 10px;
-} */
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.dropdown:hover a {
-    margin-top: 10px;
 }
 
 footer {
