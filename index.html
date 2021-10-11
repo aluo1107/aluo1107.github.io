@@ -15,7 +15,13 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#resume-h2">Resume</a></li>
-                <li><a href="#projects-h2">Projects</a></li>
+                <li class = "dropdown">
+                    <a href="#projects-h2">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="#class-h3">Class</a>
+                        <a href="#hack-h3">Hacks</a>
+                    </div>
+                </li>
                 <!-- <li class=""><a href="orgs.html">Affiliations</a></li> -->
             </ul>
         </nav>
@@ -23,7 +29,7 @@
 
     <h1> * WEBSITE IN PROGRESS * </h1>
 
-    <h2> About Me </h2>
+    <h2 id = "about-h2"> About Me </h2>
     <div id="about">
         <h3> Who Am I? </h3>
         <!-- Source: Ting Ting Chen -->
@@ -52,6 +58,15 @@
         <p> In my free time, I love bowling, spending time with friends, and taking walks.</p> -->
     </div>
 
+    <div class="backtotop">
+        <a href="#about-h2">
+            <svg width="38" height="28" viewBox="0 0 38 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 9.875L3.375 25.5L5.5625 27.6875L19 14.25L32.4375 27.6875L34.625 25.5L19 9.875Z" fill="#DBC9F1"/>
+                <path d="M0.25 0.5H37.75V3.625H0.25V0.5Z" fill="#DBC9F1"/>
+            </svg>
+        </a>
+    </div>
+
     <h2 id = "resume-h2">Resume and GitHub</h2>
     <div id="resume-but">
         <div class="link-buttons">
@@ -61,44 +76,186 @@
         </div>
     </div>
 
+    <div class="backtotop">
+        <a href="#about-h2">
+            <svg width="38" height="28" viewBox="0 0 38 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 9.875L3.375 25.5L5.5625 27.6875L19 14.25L32.4375 27.6875L34.625 25.5L19 9.875Z" fill="#DBC9F1"/>
+                <path d="M0.25 0.5H37.75V3.625H0.25V0.5Z" fill="#DBC9F1"/>
+            </svg>
+        </a>
+    </div>
+
     <h2 id = "projects-h2">Projects</h2>
     <div id="projects">
-        <h3>Class Projects</h3>
-
-
-        <h3>Hackathons</h3>
+        <h3 id = "class-h3">Class Projects</h3>
         <div class="project">
-            <!-- Source: (original work) Ada Luo -->
-            <img src="images/fablelogo.png" alt="Fable Logo" width=400 height=312>
+            <img src="images/camlbattle.png" alt="CamlBattle" height = 400 width = 400>
             <div class="proj-content">
-                <h4>Fable</h4>
-                <div class="captions">
-                    <ul>
-                        <li>Created and pitched the project <em>FABLE</em> with 5 other team members for the <em>Digital
-                                Agriculture Hackathon</em> in Spring 2020.</li>
-                        <li><em>FABLE</em> aims to decrease waste in the food chain by connected farmers and consumers
-                            directly on an e-commerce style platform.</li>
-                        <li>Prototyped a mock-website using HTML and CSS to demonstrate the basic functions.</li>
-                    </ul>
-                    <a class = "github-but" href="https://github.com/aluo1107/DigitalAgHackathon2020/tree/master/website" target= "_blank">GitHub</a>
+                <h4>CamlBattle</h4>
+                <ul>
+                    <li>CS 3110 - Data Structures and Functional Programming</li>
+                    <li>3-member team </li>
+                    <li>Game similar to Pokemon</li>
+                    <li>Made using OCaml</li>
+                </ul>
+                <div class="proj-links">
+                    <a href="https://github.coecis.cornell.edu/cc2583/CamlBattle">GitHub</a>
                 </div>
+
+            </div>
+        </div>
+        <div class="project">
+            <div class="proj-image">
+                <svg width="244" height="403" viewBox="0 0 244 403" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 361.048V92.4762L109 2V402L1 361.048Z" fill="#EEBFBF"/>
+                    <path d="M1 361.048V92.4762L109 2V402L1 361.048Z" fill="url(#paint0_linear)"/>
+                    <path d="M1 361.048V92.4762L109 2V402L1 361.048Z" fill="url(#paint1_linear)"/>
+                    <path d="M134 402V2L243 92.4762V361.048L134 402Z" fill="#EEBFBF"/>
+                    <path d="M134 402V2L243 92.4762V361.048L134 402Z" fill="url(#paint2_linear)"/>
+                    <path d="M134 402V2L243 92.4762V361.048L134 402Z" fill="url(#paint3_linear)"/>
+                    <path d="M1 361.048V92.4762L109 2V402L1 361.048Z" stroke="#EDBDBF"/>
+                    <path d="M134 402V2L243 92.4762V361.048L134 402Z" stroke="#EDBDBF"/>
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="122" y1="2" x2="122" y2="402" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#EEBFBF" offset="0"/>
+                            <stop offset="1" stop-color="#BBBBDB"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="122" y1="2" x2="122" y2="402" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#E3ADC7" offset="0"/>
+                            <stop offset="1" stop-color="#C8B6D5" stop-opacity="0"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear" x1="122" y1="2" x2="122" y2="402" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#EEBFBF" offset="0"/>
+                            <stop offset="1" stop-color="#BBBBDB"/>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear" x1="122" y1="2" x2="122" y2="402" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#E3ADC7" offset="0"/>
+                            <stop offset="1" stop-color="#C8B6D5" stop-opacity="0"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="proj-content">
+                <h4>BTS's Discograpy Website Database</h4>
+                <ul>
+                    <li>INFO 2300 - Intermediate Design and Programming for the Web</li>
+                    <li>Designed and implemented a website that showcased a database of the musical band, BTS’s, discography.</li>
+                    <li>Built with HTML, CSS, PHP, and SQLite</li>
+                </ul>
+
+                <div class="proj-links">
+                    <a href="https://sleepy-dawn-70384.herokuapp.com/">Website</a>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <!-- <img src="" alt="News App"> -->
+            <div class="proj-image">
+                <img src="images/nytapi" alt="NYT Developer Logo" height = 77 width = 400>
+            </div>
+            <div class="proj-content">
+                <h4> News App </h4>
+                <ul>
+                    <li> Made as the final project for an Intro to iOS Development course.</li>
+                    <li> The app used the Cocoapod Alamofire to make calls to the NYT API using the search words
+                        inputted by the user.</li>
+                    <li>The JSON retrieved from the calls is decoded and displayed as an article name and snippet in a
+                        TableView, with each article in a separate TableViewCell.</li>
+                    <li> The TableViewCell can be clicked to display a DetailView with the article name, a snippet of
+                        the article, an image, and a clickable link.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <!-- <img src="" alt="Martha's Cavern"> -->
+            <div class="proj-content">
+                <h4>Martha's Cavern</h4>
+                <ul>
+                    <li>CS 2110 - Object Oriented Programming and Data Structures</li>
+                    <li>Two-member team</li>
+                    <li>Planned an escape route for an avatar in a randomly generated map.</li>
+                    <li>Optimized gold collection with a limited amount of steps using Dijkstra’s algorithm.</li>
+                    <li>Built using Java</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <!-- <img src="" alt="Space Invaders"> -->
+        </div>
+
+        <div class="backtotop">
+            <a href="#about-h2">
+                <svg width="38" height="28" viewBox="0 0 38 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 9.875L3.375 25.5L5.5625 27.6875L19 14.25L32.4375 27.6875L34.625 25.5L19 9.875Z" fill="#DBC9F1"/>
+                    <path d="M0.25 0.5H37.75V3.625H0.25V0.5Z" fill="#DBC9F1"/>
+                </svg>
+            </a>
+        </div>
+
+        <h3 id = "hack-h3">Hackathons</h3>
+
+        <div class="project">
+            <img src="images/expir-explore.png" alt="Expiration Exploration">
+            <div class="proj-content">
+                <h4>Expiration Exploration</h4>
+                <ul>
+                    <li><em> Big Red Hacks </em>September 24th to 26th, 2021 </li>
+                    <li>Created and pitched project <em> Exploration Expiration </em> with 3 other team members</li>
+                    <li>Mocked on Figma.</li>
+                    <li>Presented live twice.</li>
+                </ul>
             </div>
         </div>
 
         <div class="project">
             <!-- Source: (original work) Ada Luo-->
-            <img src="images/snootlogo.png" alt="Snoot Logo" width= 400 height = 376>
+            <img src="images/snootlogo.png" alt="Snoot Logo" width= 400 height = 399>
             <div class="proj-content">
                 <h4>Snoot</h4>
-                <div class="captions">
-                    <p> <em> Hack Our Campus Hackathon</em>
-                        August 28th-30th, 2020 </p>
-                    <a href="https://uxfol.io/project/048bd134/Snoot" target="_blank">Click here to see the case
-                        study!⇱</a>
-                    <a class = "github-but" href="https://github.com/aluo1107/Snoot" target = "_blank">GitHub</a>
+                <div class="proj-content">
+                    <ul>
+                        <li><em> Hack Our Campus Hackathon</em> August 28th-30th, 2020</li>
+                    </ul>
+
+                    <div class="proj-links">
+                        <a href="https://uxfol.io/project/048bd134/Snoot" target="_blank">Case Study ⇱</a>
+                        <a class = "github-but" href="https://github.com/aluo1107/Snoot" target = "_blank">GitHub</a>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="project">
+            <!-- Source: (original work) Ada Luo -->
+            <img src="images/fablelogo.png" alt="Fable Logo" width=400 height=312>
+            <div class="proj-content">
+                <h4>Fable</h4>
+                <div class="proj-content">
+                    <ul>
+                        <li><em>Digital Agriculture Hackathon</em> in Spring 2020.</li>
+                        <li>Created and pitched the project <em>FABLE</em> with 5 other team members</li>
+                        <li><em>FABLE</em> aims to decrease waste in the food chain by connected farmers and consumers
+                            directly on an e-commerce style platform.</li>
+                        <li>Prototyped a mock-website using HTML and CSS to demonstrate the basic functions.</li>
+                    </ul>
+                    <div class="proj-links">
+                        <a class = "github-but" href="https://github.com/aluo1107/DigitalAgHackathon2020/tree/master/website" target= "_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="backtotop">
+        <a href="#about-h2">
+            <svg width="38" height="28" viewBox="0 0 38 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 9.875L3.375 25.5L5.5625 27.6875L19 14.25L32.4375 27.6875L34.625 25.5L19 9.875Z" fill="#DBC9F1"/>
+                <path d="M0.25 0.5H37.75V3.625H0.25V0.5Z" fill="#DBC9F1"/>
+            </svg>
+        </a>
     </div>
 
     <footer>
