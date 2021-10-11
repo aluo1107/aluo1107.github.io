@@ -13,70 +13,110 @@
     <header>
         <nav>
             <ul>
-                <li class="navname"><a href="index.html">Ada</a></li>
-            </ul>
-            <ul class="rightnav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class=""><a href="projects.html">Projects</a></li>
-                <li class=""><a href="resume.html">Resume</a></li>
-                <li class=""><a href="orgs.html">Affiliations</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#resume-h2">Resume</a></li>
+                <li><a href="#projects-h2">Projects</a></li>
+                <!-- <li class=""><a href="orgs.html">Affiliations</a></li> -->
             </ul>
         </nav>
     </header>
 
-    <h1> Hello! Welcome to my online portfolio and resume!</h1>
+    <h1> * WEBSITE IN PROGRESS * </h1>
 
-    <div class="about">
-        <!-- Source: (original work) Ada Luo -->
-        <h2> Who Am I? </h2>
+    <h2> About Me </h2>
+    <div id="about">
+        <h3> Who Am I? </h3>
+        <!-- Source: Ting Ting Chen -->
+        <div class="selfimg"> <img src="images/self.jpeg" alt="Ada Luo" width=200 height=200> </div>
         <div class="whoami">
-            <div class="selfimg"> <img src="images/self.jpg" alt="Ada Luo" width=150 height=150> </div>
-            <p> My name is Ada Luo and I am a Junior studying Information Science in the College of
-                Agriculture and Life Sciences at Cornell University. I am concentrating in Interactive Technologies.
-            </p>
+            <div class = "desc-p">
+                <p> My name is Ada Luo and I was born and raised in New York City. I am the oldest child born to immigrant parents and am a
+                    first generation college student.
+                </p>
+
+                <p> I am a junior studying Information Science in the <em> College of Agriculture and Life Sciences at
+                Cornell University</em>. I am concentrating in Interactive Technologies and minoring in Computer Science. </p>
+
+                <p> I came into <em> Cornell University</em> as an Environmental Engineering major, but after taking an
+                    introductory course to computer science using the Python, I fell in love with coding and
+                    explored more of the computing industry. </p>
+
+                <p> When I was exploring, I found out about Information Science and decided that this was the career path I want
+                    to take. I realized I had a passion for designing websites and building applications that other people can
+                    use. </p>
+            </div>
+
         </div>
 
-        <h2> My Journey</h2>
-        <p> I came into <em> Cornell University</em> as an Environmental Engineering major, but after taking an
-            introductory course to computer science using the coding language Python, I fell in love with coding and
-            explored more of the computing industry. </p>
+        <!-- <h3> My Hobbies</h3>
+        <p> In my free time, I love bowling, spending time with friends, and taking walks.</p> -->
+    </div>
 
-        <p> When I was exploring, I found out about Information Science and decided that this was the career path I want
-            to take. I realized I had a passion for designing websites and building applications that other people can
-            use. </p>
+    <h2 id = "resume-h2">Resume and GitHub</h2>
+    <div id="resume-but">
+        <div class="link-buttons">
+            <a href="resume.html">Resume</a>
+            <a href="https://github.com/aluo1107" target="_blank">Github ⇱</a>
+            <a href="https://github.coecis.cornell.edu/al2342" target ="_blank">Cornell Github ⇱</a>
+        </div>
+    </div>
 
-        <h2> My Hobbies</h2>
-        <p> In my free time, I love bowling, spending time with friends, and taking walks.</p>
+    <h2 id = "projects-h2">Projects</h2>
+    <div id="projects">
+        <h3>Class Projects</h3>
 
-        <h2>Contact me!</h2>
-        <section class="contacts">
-            <div class="single">
-                <!-- Source: https://www.iconfinder.com/icons/4202011/mail_gmail_email_logo_social_social_media_icon -->
-                <a href="mailto:al2342@cornell.edu" target="_blank"> <img src="images/gmail.svg" alt="Gmail Logo"
-                        width=120 height=120> </a>
-                <p> <a href="mailto:al2342@cornell.edu" target="_blank">Email Me! ⇱</a></p>
-                Source: <cite> <a
-                        href="https://www.iconfinder.com/icons/4202011mail_gmail_email_logo_social_social_media_icon">Icon
-                        Finder</a></cite>
+
+        <h3>Hackathons</h3>
+        <div class="project">
+            <!-- Source: (original work) Ada Luo -->
+            <img src="images/fablelogo.png" alt="Fable Logo" width=400 height=312>
+            <div class="proj-content">
+                <h4>Fable</h4>
+                <div class="captions">
+                    <ul>
+                        <li>Created and pitched the project <em>FABLE</em> with 5 other team members for the <em>Digital
+                                Agriculture Hackathon</em> in Spring 2020.</li>
+                        <li><em>FABLE</em> aims to decrease waste in the food chain by connected farmers and consumers
+                            directly on an e-commerce style platform.</li>
+                        <li>Prototyped a mock-website using HTML and CSS to demonstrate the basic functions.</li>
+                    </ul>
+                    <a class = "github-but" href="https://github.com/aluo1107/DigitalAgHackathon2020/tree/master/website" target= "_blank">GitHub</a>
+                </div>
             </div>
+        </div>
 
-            <div class="single">
-                <!-- Source: https://www.flaticon.com/free-icon/linkedin_174857 -->
-                <a href="https://www.linkedin.com/in/ada-luo-6bb712199/" target="_blank"><img
-                        src="images/linkedinlogo.png" alt="LinkedIn Logo" width=120 height=120></a>
-                <p> <a href="https://www.linkedin.com/in/ada-luo-6bb712199/">Connect with Me! ⇱</a></p>
-                Source: <cite><a href="https://www.flaticon.com/free-icon/linkedin_174857">FlatIcon</a></cite>
+        <div class="project">
+            <!-- Source: (original work) Ada Luo-->
+            <img src="images/snootlogo.png" alt="Snoot Logo" width= 400 height = 376>
+            <div class="proj-content">
+                <h4>Snoot</h4>
+                <div class="captions">
+                    <p> <em> Hack Our Campus Hackathon</em>
+                        August 28th-30th, 2020 </p>
+                    <a href="https://uxfol.io/project/048bd134/Snoot" target="_blank">Click here to see the case
+                        study!⇱</a>
+                    <a class = "github-but" href="https://github.com/aluo1107/Snoot" target = "_blank">GitHub</a>
+                </div>
             </div>
+        </div>
+    </div>
 
-            <div class="single">
-                <!-- Source: https://appadvice.com/app/clubhouse-drop-in-audio-chat/1503133294 -->
-                <img src="images/clubhouselogo.jpg" alt="Clubhouse logo">
-                <p>Clubhouse ID: @adaluo</p>
-                Source: <cite><a href="https://appadvice.com/app/clubhouse-drop-in-audio-chat/1503133294">App
-                        Advice</a></cite>
+    <footer>
+        <p>Made by Ada Luo. Last updated: October 10th, 2021</p>
+
+        <div class="contacts">
+            <div>
+            <!-- Source: https://www.iconfinder.com/icons/4202011/mail_gmail_email_logo_social_social_media_icon -->
+            <a href="mailto:al2342@cornell.edu" target="_blank"> <img src="images/gmail.svg" alt="Gmail Logo"
+                    width=50 height=50> </a>
             </div>
-        </section>
-
+            <div>
+            <!-- Source: https://www.flaticon.com/free-icon/linkedin_174857 -->
+            <a href="https://www.linkedin.com/in/ada-luo-6bb712199/" target="_blank"><img
+                    src="images/linkedinlogo.png" alt="LinkedIn Logo" width=50 height=50></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
